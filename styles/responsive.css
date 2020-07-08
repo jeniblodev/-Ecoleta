@@ -1,0 +1,44 @@
+@media (max-width: 900px) {
+    #pg-home {
+        background-position: 70vw;
+    }
+
+    #pg-home .content {
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    #pg-home header a {
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    #pg-home main {
+        align-items: center;
+
+    }
+
+
+}
+
+@media (max-width: 495px) {
+    #pg-home main h1 {
+        font-size: 45px;
+    }
+
+    #pg-home main p {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    #pg-home header a {
+        bottom: 15px;
+    }
+}
+

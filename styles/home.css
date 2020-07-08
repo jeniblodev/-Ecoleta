@@ -1,0 +1,106 @@
+#pg-home {
+    height: 100vh;
+    background-image: url('../imagens/home-background.svg');
+    background-repeat: no-repeat;
+    background-position: 35vw 18vh;
+}
+
+#pg-home header {
+    margin-top: 48px;
+    display: flex;
+    align-items: center; /* Alinha no centro do header */
+    justify-content: space-between; 
+}
+
+#pg-home .content {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#pg-home header a {
+    display: flex;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+#pg-home header span {
+    background-image: url('../imagens/log-in.svg');
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+}
+
+#pg-home main {
+    max-width: 560px;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#pg-home main h1 {
+    font-size: 56px;
+}
+
+#pg-home main p {
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 24px;
+}
+
+#pg-home main a {
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+
+    background-color: var(--cor-primaria);
+
+    transition: 400ms;
+
+    color: #ffffff;
+}
+
+#pg-home main a:hover {
+    background-color: #2fb86e;
+}
+
+#pg-home main a span {
+    width: 72px;
+    height: 72px;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+    background-color: rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pg-home main a span::after {
+    content: '';
+    background-image: url('../imagens/search.svg');
+
+    width: 20px;
+    height: 20px;
+}
+
+#pg-home main a strong {
+    flex: 1;
+    text-align: center;
+}
