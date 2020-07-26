@@ -23,4 +23,4 @@ A aplicação tem simula o Ecoleta, que lista pontos de coleta de resíduos. Nes
 
 ## 🖼️ Resultado
 
-![](https://github.com/jeniblodev/-Ecoleta/blob/master/projeto/pg_inicial.PNG)
+![](https://github.com/jeniblodev/-Ecoleta/blob/master/projeto/pg_inicial.PNG) ![](https://github.com/jeniblodev/-Ecoleta/blob/master/projeto/pg_cadastro.png)
